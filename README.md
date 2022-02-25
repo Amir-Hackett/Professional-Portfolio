@@ -1,9 +1,9 @@
 # Professional-Portfolio
 
-Purpose
-Help generate interest for hire
+##Purpose
+To help generate interest for hire
 
-Built With
+##Built With
 HTML
 CSS
 
