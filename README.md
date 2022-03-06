@@ -14,4 +14,4 @@ https://amir-hackett.github.io/Professional-Portfolio/
 
 Once deployed the application can be viewed in a traditional desktop web browser and it is optimized for smaller screens.
 
-[screenshot of index.html](./assets/images/Screen-Shot%20.png)
+![screenshot of index.html](./assets/images/Screen-Shot%20.png)
