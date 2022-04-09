@@ -1,87 +1,141 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amir Hackett's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
 <body>
-<header>
-    <h1>
-        <div class="portfolio-div">
-            Amir's Portfolio
-            <nav class="menu-bar" id="menu">
-                <ul>
-                    <li>
-                        <a href="#about">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact Me</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </h1>
-
-</header>
-
-<div class="container">
-    <section id="about" class="details">
-        <img src="./assets/images/IMG1.jpg" alt="profile picture"/>
-        <div class="text">
-            About Me
-        </div>
-
-        <div class="info vertical-line">
-            <p>
-              Future Software Engineer currently working on productions of web and mobile applications. Learing understanding and expertise in Computer Science fundamentals, Javascript, HTML, CSS, jQuery, Bootstrap, Node.js, MySQL, MongoDB, Express, React.js and other frontend technologies.     
-            </p>
-        </div>
-    </section>
-
-    <section id="projects" class="details">
-        <div class="text">
-            Projects
-        </div>
-            <div class="grid-item">
-                <a href='https://amir-hackett.github.io/run-buddy/'  target="_blank">
-                    <img src="assets/images/run-buddy.png" alt="Run Buddy" class="gallery__img"/>
-                    <div class="desc">
-                        <h3>Run Buddy</h3>
-                        <p>HTML/Flexbox</p>
-                    </div>
-                </a>
-            </div>
-    </section>
-
-    <section id="contact" class="details">
-        <div class="text">
-            Contact Me
-        </div>
-
-        <nav class="info vertical-line">
-            <ul class="footer-container">
-                <li>
-                    <div class="footer">
-                    <p>
-                        561-212-7870
-                    </p>
-                        <li>
-                        <a href="mailto:amir.hackett@gmail.com" class="footer"> amir.hackett@gmail.com </a>
-                        </li>
-                         <li>
-                          <a href="https://github.com/Amir-Hackett" target="_blank" class="footer">GitHub</a>
-                        </li>
-                        <li>
-                       <a href="https://www.linkedin.com/in/amir-hackett-87b95331/" target="_blank" class="footer">LinkedIn </a>
-                     </li>
+    <!-- Nav -->
+    <nav>
+        <div class="nav-wrapper black">
+            <p class="brand-logo">Amir Hackett's Portfolio</p>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#myprojects">My Projects</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+                <li><a
+                        href="https://docs.google.com/document/d/19LrSnNNBA97e3P-Fix62SJXleCizkBCxkOjC9qzDt-4/edit?usp=sharing">Resume</a>
+                </li>
             </ul>
-        </nav>
-    </section>
-</div>
+        </div>
+    </nav>
+<main>
+    <!-- Header -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container" id="header">
+            <div class="row">
+                <div class="col-12">
+                    <img src="./assets/images/IMG1.jpg" class="rounded-circle" id="me">
+                    <h1>Amir Hackett</h1>
+                    <h2>Junior Software Engineer</h2>
+        </div>
+    </div>
+    </div>
+    </div>
 
+    <!-- About Me -->
+    <div class="container" id="aboutme">
+        <div class="row">
+            <div class="col-3">
+                <h2>About Me</h2>
+            </div>
+
+        <div class="col-9" id="abouttext">
+            Programmer with multi-tasking abilities.
+            I focus on breaking down difficult tasks into manageable parts by using my problem-solving skills to create a
+            workable solution.
+            Having the ability to adapt quickly to a variety of situations and manage multiple projects simultaneously is one of
+            my strengths.
+            I am a fast and versatile programmer with excellent communication skills. My main goal is to break down difficult
+            tasks into easy-to-solve tasks.
+            I have always been on time and completed my projects before deadlines and have always proven to be a problem solver.
+            Being able to adapt quickly to different situations and handle multiple projects at once is one of my strongest
+            suits.
+            <br></br>
+            <strong></strong>Technical Skills:</strong>
+            <br>
+            JavaScript | HTML | CSS | Node.js | Bootstrap | Git | JQuery | Web API's
+        </div>
+        </div>
+        </div>
+        
+        <!-- My Projects -->
+        <div class="container" id="myprojects">
+            <div class="row">
+                <div class="col-3">
+                    <h2>My Projects</h2>
+                </div>
+        
+                <div class="col-9">
+                    <div class="row">
+        
+                        <!--RecipEZ-->
+                        <div class="row row-cols-1 row-cols-md-3">
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <div class="card-body black">
+                                        <a href="https://amir-hackett.github.io/RecipEZ/"><img src="./assets/images/recipez.png"
+                                                style="width: 55rem;"></a>
+                                        <br></br>
+                                        <p class="text-white">RecipEZ</p>
+                                        <p class="text-dark"><a href="https://github.com/Amir-Hackett/work-day-scheduler">Github
+                                                Repo</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+            <!--Weather Dashboard -->
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="card-body black">
+                            <a href="https://amir-hackett.github.io/weather-dashboard/"><img
+                                    src="./assets/images/weather-dashboard.png" style="width: 25rem;"></a>
+                            <br></br>
+                            <p class="text-white">Weather Dashboard</p>
+                            <p class="text-dark"><a href="https://github.com/Amir-Hackett/weather-dashboard">Github Repo</a></p>
+                        </div>
+                </div>
+                </div>
+
+            <!--Workday Scheduler-->
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <div class="card">
+                        <div class="card-body black">
+                            <a href="https://amir-hackett.github.io/work-day-scheduler/"><img
+                                    src="./assets/images/workday-scheduler.png" style="width: 25rem;"></a>
+                            <br></br>
+                            <p class="text-white">Workday Scheduler</p>
+                            <p class="text-dark"><a href="https://github.com/Amir-Hackett/work-day-scheduler">Github Repo</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Me -->
+            <div class="container" id="contactme">
+                <div class="row">
+                    <div class="col-3">
+                        <h2>Contact Me</h2>
+                    </div>
+                    <div class="col-9" id="contactinfo">
+                        <p><a class="btn-small #b39ddb red" href#="phone-number">561.212.7870</a></p>
+                        <p><a class="btn-small #b39ddb red"
+                                href="mailto:amir.hackett@gmail.com">amir.hackett@gmail.com</a></p>
+                        <p><a class="btn-small #b39ddb red"
+                                href="https://github.com/Amir-Hackett">Github</a></p>
+                        <p><a class="btn-small #b39ddb red"
+                                href="https://www.linkedin.com/in/amir-hackett/">LinkedIn</a></p>
+                    </div>
+                </div>
+            </div>
+</main>
+    
 </body>
 </html>
